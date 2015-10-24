@@ -230,6 +230,10 @@ fieldset[disabled] .btn-xl.active {
     background-color: #fec503;
 }
 
+img.header-logo {
+    max-height: 40px; width: auto; margin-top: -11px
+}
+
 @media(min-width:768px) {
     .navbar-default {
         padding: 25px 0;
@@ -322,6 +326,10 @@ section {
     padding: 100px 0;
 }
 
+section.info_section {
+    padding: 100px 0;
+}
+
 section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
@@ -332,8 +340,20 @@ section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
     font-size: 16px;
-    font-style: italic;
+    /*font-style: italic;*/
     font-weight: 400;
+}
+
+.registration_summary {
+    text-align: left;
+    margin: 50px auto;
+    max-width: 100%;
+    width: 410px;
+    background: #EDEDED;
+    padding: 25px;    
+}
+.registration_summary div, .registration_summary p {
+    margin: 10px;
 }
 
 @media(min-width:768px) {
