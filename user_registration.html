@@ -64,16 +64,55 @@
     <section class="info_section">
         <div class="container">
             <div class="row">
-                <div class="col-md-8 col-md-offset-2 text-center">
-                    <h2 class="section-heading">注册成功</h2>
-                    <h3 class="text-muted">以下是您这次活动的注册信息</h3>
-                    <div class="registration_summary form-div">
-                        <div><strong>活动名称：</strong> 北京黑客马拉松</div>
-                        <div><strong>活动网址：</strong> <a href="#" target="_blank">http://www.biaopei.org/events/beijing_hackathon/</a></div>
-                        <div><strong>活动二维码：</strong></div>
-                    <div class="text-center">
-                        <img src="img/sample_qr_code.png" />
-                    </div>
+                <div class="col-md-8 col-md-offset-2">
+                    <h2 class="section-heading text-center">活动注册</h2>
+                    <h3 class="text-muted text-center">北京黑客马拉松</h3>
+                <div class="form-div">
+                    <div class="text-muted">请填写您的个人信息:</div>
+
+                      <form>
+
+                        <div class="form-group">
+                          <label for="name">姓名</label>
+                          <input type="name" name="name" class="input-text form-control" placeholder="姓名">
+                        </div>
+
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">Email</label>
+                          <input type="email" name="email" class="input-text form-control" placeholder="Email">
+                        </div>
+
+                        <div class="form-group">
+                          <label for="exampleInputPassword1">手机</label>
+                          <input type="text" name="phone" class="input-text form-control" placeholder="手机">
+                        </div>
+
+                        <div class="checkbox">
+                          <div class="tag-label-txt"><strong>我的标签：</strong></div>
+                          <label class="tag-checkbox">
+                            <input type="checkbox" class="input-checkbox">HTML
+                          </label>
+                          <label class="tag-checkbox">
+                            <input type="checkbox" class="input-checkbox">前端工程师
+                          </label>                          
+                        </div>
+
+                        <div class="checkbox">
+                          <div class="tag-label-txt"><strong>我要找的人的标签：</strong></div>
+                          <label class="tag-checkbox">
+                            <input type="checkbox" class="input-checkbox">JavaScript
+                          </label>
+                          <label class="tag-checkbox">
+                            <input type="checkbox" class="input-checkbox">后端工程师
+                          </label>                          
+                        </div>
+
+                        <div class="text-center">
+                          <button type="submit" class="btn btn-xl">注 册</button>
+                        </div>
+
+                      </form>
+
                     </div>
                 </div>
             </div>
